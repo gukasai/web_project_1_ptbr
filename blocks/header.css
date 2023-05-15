@@ -1,0 +1,55 @@
+.header {
+    position:relative;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display:flex;
+    background-color: #F2F2F2;
+    overflow:hidden;
+    /* parameters for the header section */
+}
+
+.header__title{
+    width:730px;
+    margin: 0 0 0 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    align-self:center;
+    }
+.header__subtitle{
+    width:388px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    position:absolute;
+    left:64px;
+    bottom:30px;
+}
+
+    .header__link{
+    color:#2F80ED;
+    text-decoration: none;
+    display:flex;
+}
+
+.header__main-ilustration{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    width:756px;
+    height:608px;
+    z-index: 1;
+}
+
+.header__square{
+    position:absolute;
+    top:64px;
+    right:0px;
+    width:568px;
+    height:568px;
+    background-color:#2F80ED;
+    z-index: 0;
+    rotate: 15deg;
+    animation: rotate 20s linear infinite;
+}     
