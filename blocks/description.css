@@ -1,0 +1,42 @@
+.description{
+padding-top: 100px;
+display:flex;
+justify-content:center;
+}
+
+.two-columns{
+display: flex;
+justify-content:space-between;
+width:80%;
+}
+
+.two-columns__brief{
+color:#2F80ED;
+line-height: 1.2;
+font-size: 18px;
+font-weight: normal;
+margin:0;
+width:175px;
+}
+
+.two-columns__main_text{
+display:flex;
+flex-direction: column;
+gap:30px;
+width: 80%;
+min-width: 784px;
+}
+
+.two-columns__paragraph_span-accent{
+line-height: 34px;
+font-size: 24px;
+font-weight: bold;
+}
+
+.two-columns__paragraph {
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+margin:0;
+}
+

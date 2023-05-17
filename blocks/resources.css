@@ -1,0 +1,21 @@
+.resources{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding-top: 100px;
+}
+
+.resources__logo-zone{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: nowrap;
+width:1100px;
+margin:80px auto 217px auto;
+}
+
+.resources__logo{
+width: 270px;
+height: 38px;
+}
+

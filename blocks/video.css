@@ -1,0 +1,13 @@
+.video{
+display:flex;
+flex-direction: column;
+overflow: visible;
+align-items: center;
+row-gap: 20px;
+}
+
+.video__iframes{
+height: 280px;
+overflow: visible;
+margin-top: 50px;
+}
