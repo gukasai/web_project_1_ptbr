@@ -1,5 +1,7 @@
 .khan{
 padding-top: 105px;
+background-color: #2F80ED;
+background-color: #F2F2F2;
 }
 
 .khan__container{
@@ -20,7 +22,7 @@ font-weight: normal;
 line-height:1.15;
 font-size: 60px;
 font-weight: bold;
-
+margin:0px;
 }
 
 .khan__quote{
@@ -32,10 +34,10 @@ font-weight: normal;
 }
 
 .khan__quote-author{
-
 line-height:1.15;
 font-size: 24px;
 font-weight: bold;
+margin:0px;
 }
 
 .khan_quote-autor-subline{
