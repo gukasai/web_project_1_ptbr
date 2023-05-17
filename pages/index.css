@@ -8,6 +8,7 @@
 @import "../blocks/khan.css";
 @import "../blocks/logo.css";
 @import "../blocks/oakley.css";
+@import "../blocks/rotation.css";
 @import "../blocks/resources.css";
 @import "../blocks/section-title.css";
 @import "../blocks/section-subtitle.css";
@@ -16,7 +17,6 @@
 @import "../blocks/two-columns.css";
 @import "../blocks/video.css";
 @import "../vendor/fonts/";
-@import "../vendor/keyframes.css";
 
 
 
