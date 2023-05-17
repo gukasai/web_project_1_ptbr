@@ -1,3 +1,5 @@
+@import "../vendor/keyframes.css";
+
 .header {
 position:relative;
 height: 100vh;

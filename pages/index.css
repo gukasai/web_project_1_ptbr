@@ -1,3 +1,4 @@
+@import "../blocks/cards.css";
 @import "../blocks/description.css";
 @import "../blocks/digits.css";
 @import "../blocks/feynman.css";
@@ -8,28 +9,25 @@
 @import "../blocks/logo.css";
 @import "../blocks/oakley.css";
 @import "../blocks/resources.css";
+@import "../blocks/section-title.css";
+@import "../blocks/section-subtitle.css";
+@import "../blocks/table.css";
 @import "../blocks/techniques.css";
+@import "../blocks/two-columns.css";
 @import "../blocks/video.css";
-@import "../vendor/normalize.css";
+@import "../vendor/fonts/";
+@import "../vendor/keyframes.css";
 
 
-@keyframes rotate{
-    from{
-      rotate:0deg;
-    }
-        
-    to{
-      rotate:360deg;
-    }
-}
+
 
 .page {
-    min-width: 1100px;
-    /* we don't know how to make mobile versions of websites yet, */
-    /* so here we've set a minimum page width */
-    max-width: 1600px;
-    /* here we've set a maximum page width */
-    margin: 0 auto;
-    /* this ensures that all content is centered on screens wider than 1600px */
-    font-family:'Helvetica Neue', Arial, sans-serif;
+min-width: 1100px;
+/* we don't know how to make mobile versions of websites yet, */
+/* so here we've set a minimum page width */
+max-width: 1600px;
+/* here we've set a maximum page width */
+margin: 0 auto;
+/* this ensures that all content is centered on screens wider than 1600px */
+font-family:'Helvetica Neue', Arial, sans-serif;
 }

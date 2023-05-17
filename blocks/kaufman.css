@@ -1,3 +1,5 @@
+@import "../vendor/keyframes.css";
+
 .kaufman{
 background-color: black;
 overflow: hidden;
@@ -7,34 +9,6 @@ padding-bottom: 90px;
 display:flex;
 flex-direction:column;
 align-items:center;
-}
-
-.section-title_theme_dark{
-color:white;
-z-index:1;
-}
-
-.section-subtitle_theme_dark{
-color:white;
-z-index: 1;
-}
-
-.table_theme_dark{
-margin-top: 80px;
-row-gap: 80px;
-}
-
-.table__cell_theme_dark{
-width:200px;
-z-index: 2;
-}
-
-.table__heading_theme_dark{
-color:#F2F2F2;
-}
-
-.table__text_theme_dark{
-color:#F2F2F2;
 }
 
 .kaufman__triangle{
