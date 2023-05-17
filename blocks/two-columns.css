@@ -13,7 +13,7 @@ margin:0;
 width:175px;
 }
 
-.two-columns__main_text{
+.two-columns__main-text{
 display:flex;
 flex-direction: column;
 gap:30px;
@@ -21,13 +21,13 @@ width: 80%;
 min-width: 784px;
 }
 
-.two-columns__paragraph_span-accent{
+.two-columns__span-accent{
 line-height: 34px;
 font-size: 24px;
 font-weight: bold;
 }
 
-.two-columns__paragraph {
+.two-columns__paragraph{
 line-height: 34px;
 font-size: 24px;
 font-weight: normal;
