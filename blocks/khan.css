@@ -16,6 +16,7 @@ justify-content: left;
 line-height:42px;
 font-size: 30px;
 font-weight: normal;
+margin:0;
 }
 
 .khan__title{
@@ -50,14 +51,14 @@ font-weight: normal;
 .khan__book-container{
 display:flex;
 overflow: hidden;
-height:140px;
+height:362px;
 }
 
 .khan__book-pic{
 height:620px;
 margin-right: 48px;
 }
-/* "se encaixa bem no design do livro porque não é exibido corretamente." Não consegui entender a solicitação de alteração no elemento.  */
+
 .khan__buy-link{
 line-height:42px;
 font-size: 30px;
