@@ -5,7 +5,7 @@ position:absolute;
 top:30px;
 left:64px;
 }
-
+/* não entendi a alteração solicitada para se fazer neste campo, de acordo com o brieffing o elemento está no canto superior esquerdo. */
 .logo_place_footer{
 width:185px;
 height:35px;
